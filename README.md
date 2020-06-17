@@ -21,33 +21,27 @@ This repo contains all project files which are implemented as part of Natural la
      4) Sequence ending counts
      5) Basic HMM tagger
    
-* [Dog breed classifier using CNN's](https://github.com/raviteja-ganta/Deep-Learning-Engineer-Nano-degree-Udacity/tree/master/Dog%20breed%20classifier%20using%20CNN's) - Goal of this project is to use CNN to classify an image in to 133 breeds of dogs. My code will accept any user-supplied image as input. If a dog is detected in the image, it will provide an estimate of dog's breed. If a human is detected, it will provide an estimate of the dog breed that is most resembling.
+* [NLP Machine translation](https://github.com/raviteja-ganta/Natural-language-processing-Nano-degree-Udacity/tree/master/NLP%20Machine%20translation) - Goal of this project is to build a deep neural network that functions as part of an end-to-end machine translation pipeline. Completed pipeline will accept English text as input and return the French translation.
 
   Main steps involved are:
-  1) Detect Humans
-  2) Detect Dogs
-  3) Create a CNN to Classify Dog Breeds from scratch
-  4) Create a CNN to Classify Dog Breeds(using Transfer Learning)
-  5) Write final algorithm
+  1) Preprocess input data
+  2) Experiment with various models
+     1) Simple RNN
+     2) RNN with Embedding
+     3) Bidirectional RNN
+     4) Encoder-Decoder RNN
+  3) Prediction
 
-* [Face generation using GAN's](https://github.com/raviteja-ganta/Deep-Learning-Engineer-Nano-degree-Udacity/tree/master/Face%20generation%20using%20GAN's) - Goal is to define and train DCGAN network on dataset of faces and finally to get our network generate new faces that look as realistic as possible.
-
-  Main steps involved are:
-  1) Define Discriminator network
-  2) Define Generator network
-  3) Initialize weights of above networks
-  4) Build complete network using both discriminator and generator networks
-  5) Calculate discriminator and generator losses
-  6) Training the network
-
-* [Generate TV Scripts](https://github.com/raviteja-ganta/Deep-Learning-Engineer-Nano-degree-Udacity/tree/master/Generate%20TV%20Scripts) - Goal is to generate Seinfeld TV scripts using RNNs. Neural network will generate a new, fake TV script, based on patterns it recognizes in this training data.
+* [VUI Speech recognizer](https://github.com/raviteja-ganta/Natural-language-processing-Nano-degree-Udacity/tree/master/VUI%20Speech%20recognizer) - Goal is to build a deep neural network that functions as part of end-to-end automatic speech recognition (ASR) pipeline. This pipeline will accept raw audio as input and return a predicted transcription of the spoken language
 
   Main steps involved are:
-  1) Data Pre-processing and creating dataloader
-  2) Build Neural network
-  3) Define forward and backpropagation
-  4) Selecting best hyperparameters
-  5) Neural network training
-  6) Generate TV Script 
-
-* [Predicting Bike-Sharing Patterns](https://github.com/raviteja-ganta/Deep-Learning-Engineer-Nano-degree-Udacity/tree/master/Predicting%20Bike-Sharing%20Patterns) - Goal is to build simple deep neural network to predict daily bike rental ridership using numpy and pandas. This project doesnot make use of Pytorch as main goal is to understand forward and backpropagation logic
+  1) Pre-processing step that converts raw audio to one of two feature representations that are commonly used for ASR
+  2) Deep Neural networks for Acoustic modelling
+     1) Simple RNN
+     2) RNN + TimeDistributed Dense
+     3) CNN + RNN + TimeDistributed Dense
+     4) Deeper RNN + TimeDistributed Dense
+     5) Bidirectional RNN + TimeDistributed Dense
+     6) Final model: CNN + dropout + Bidirectional RNN + TimeDistributed Dense
+  3) Compare the models
+  4) Obtain predictions
