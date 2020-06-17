@@ -5,14 +5,11 @@ This repo contains all project files which are implemented as part of Natural la
 
 ## Contents:
 
-* [Part of Speech tagging](https://github.com/raviteja-ganta/Natural-language-processing-Nano-degree-Udacity
-/tree/master/Part%20of%20Speech%20Tagging) - Part of speech tagging is the process of determining the syntactic 
-category of a word from the words in its surrounding context. It is often used to help disambiguate natural 
-language phrases because it can be done quickly with high accuracy. Tagging can be used for many NLP tasks 
-like determining correct pronunciation during speech synthesis (for example, dis-count as a noun vs dis-count as a verb), 
-for information retrieval, and for word sense disambiguation.
-
-In this notebook, you'll use the Pomegranate library to build a hidden Markov model for part of speech tagging using a "universal" tagset. Hidden Markov models have been able to achieve >96% tag accuracy with larger tagsets on realistic text corpora. Hidden Markov models have also been used for speech recognition and speech generation, machine translation, gene recognition for bioinformatics, and human gesture recognition for computer vision, and more.
+* [Part of Speech tagging](https://github.com/raviteja-ganta/Natural-language-processing-Nano-degree-Udacity/tree/master/Part%20of%20Speech%20Tagging) - Part of speech tagging is the process of determining the syntactic 
+  category of a word from the words in its surrounding context. It is often used to help disambiguate natural 
+  language phrases because it can be done quickly with high accuracy. Tagging can be used for many NLP tasks 
+  like determining correct pronunciation during speech synthesis (for example, dis-count as a noun vs dis-count as a verb), 
+  for information retrieval, and for word sense disambiguation.In this notebook, you'll use the Pomegranate library to build a hidden Markov model for part of speech tagging using a "universal"   tagset. Hidden Markov models have been able to achieve >96% tag accuracy with larger tagsets on realistic text corpora. Hidden Markov models have also been used for speech recognition and speech generation, machine translation, gene recognition for bioinformatics, and human gesture recognition for computer vision, and more.
 
 * [Dog breed classifier using CNN's](https://github.com/raviteja-ganta/Deep-Learning-Engineer-Nano-degree-Udacity/tree/master/Dog%20breed%20classifier%20using%20CNN's) - Goal of this project is to use CNN to classify an image in to 133 breeds of dogs. My code will accept any user-supplied image as input. If a dog is detected in the image, it will provide an estimate of dog's breed. If a human is detected, it will provide an estimate of the dog breed that is most resembling.
 
